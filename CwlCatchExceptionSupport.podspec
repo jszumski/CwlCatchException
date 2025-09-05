@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                     :tag => s.version.to_s
                    }
   
-  s.source_files = 'Sources/CwlCatchExceptionSupport/CwlCatchException.m', 'Sources/CwlCatchExceptionSupport/Include/CwlCatchException.h'
+  s.source_files = 'Sources/CwlCatchExceptionSupport/CwlCatchException.m', 'Sources/CwlCatchExceptionSupport/include/CwlCatchException.h'
   
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '10.14'
